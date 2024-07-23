@@ -10,9 +10,9 @@ public class ExercicioUm {
         int valorClasseB = 30;
         int valorClasseC = 20;
 
-        int valorTotalBilhetesA = lerNumero("Digite a quantidade de bilhetes classe A vendidos: ", input) * valorClasseA;
-        int valorTotalBilhetesB = lerNumero("Digite a quantidade de bilhetes classe B vendidos: ", input) * valorClasseB;
-        int valorTotalBilhetesC = lerNumero("Digite a quantidade de bilhetes classe C vendidos: ", input) * valorClasseC;
+        int valorTotalBilhetesA = lerNumero("A", input) * valorClasseA;
+        int valorTotalBilhetesB = lerNumero("B", input) * valorClasseB;
+        int valorTotalBilhetesC = lerNumero("C", input) * valorClasseC;
         
         int rendaTotal = (valorTotalBilhetesA + valorTotalBilhetesB + valorTotalBilhetesC);
 
@@ -21,8 +21,8 @@ public class ExercicioUm {
         input.close();
     }
 
-    private static int lerNumero(String mensagem, Scanner input) {
-        System.out.print(mensagem);
+    private static int lerNumero(String classeBilhete, Scanner input) {
+        System.out.printf("Digite a quantidade de bilhetes classe %s vendidos: ", classeBilhete);
         return input.nextInt();
     }
 }
