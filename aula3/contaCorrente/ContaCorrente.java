@@ -79,7 +79,7 @@ public class ContaCorrente {
             saldo -= valor;
             destinatario.saldo += valor;
             System.out.printf("Transferência de R$ %.2f realizada da Conta %d para a Conta %d.%n%n", valor, numeroConta, destinatario.getNumeroConta() );
-            registrarOperacao("Transferência de R$" + valor + " para Conta " + destinatario.getNumeroConta());
+            registrarOperacao("Transferência de R$" + valor + " enviada para Conta " + destinatario.getNumeroConta());
             destinatario.registrarOperacao("Transferência de R$" + valor + " recebida da conta " + numeroConta);
         } else {
             System.out.println("Saldo insuficiente para realizar a transferência.");
