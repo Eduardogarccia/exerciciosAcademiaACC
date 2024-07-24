@@ -28,15 +28,6 @@ public class PrincipalContaCorrente {
 		
 		conta2.ExibirExtrato();
 		
-		
-	
-	
-	
-	
-	
-	
-	
-	
 	}
 
 }
