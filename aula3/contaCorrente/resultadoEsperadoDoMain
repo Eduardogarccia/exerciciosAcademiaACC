@@ -1,0 +1,44 @@
+Depósito de R$ 1200,00 realizado com sucesso na conta 1111 
+O saldo atual é de R$ 1200,00 
+
+Saque de R$ 200,00 realizado com sucesso na conta 1111 
+O saldo atual é de R$ 1000,00 
+
+Transferência de R$ 200,00 realizada da Conta 1111 para a Conta 2222.
+
+--------------------------------------------------
+Extrato da Conta 1111 - Cliente: José Garcia 
+Saldo atual: R$ 800,00 
+Histórico de operações:
+- Conta criada - Saldo inicial: R$0.0
+
+- Depósito de R$1200.0 realizado com sucesso na conta 1111
+
+- Saque de R$200.0 realizado com sucesso da conta 1111
+
+- Transferência de R$200.0 para Conta 2222
+
+--------------------------------------------------
+--------------------------------------------------
+Extrato da Conta 2222 - Cliente: Maria Socorro 
+Saldo atual: R$ 300,00 
+Histórico de operações:
+- Conta criada - Saldo inicial: R$100.0
+
+- Transferência de R$200.0 recebida da conta 1111
+
+--------------------------------------------------
+Saldo insuficiente para realizar a transferência.
+Transferência de R$ 150,00 realizada da Conta 2222 para a Conta 1111.
+
+--------------------------------------------------
+Extrato da Conta 2222 - Cliente: Maria Socorro 
+Saldo atual: R$ 150,00 
+Histórico de operações:
+- Conta criada - Saldo inicial: R$100.0
+
+- Transferência de R$200.0 recebida da conta 1111
+
+- Transferência de R$150.0 para Conta 1111
+
+--------------------------------------------------
