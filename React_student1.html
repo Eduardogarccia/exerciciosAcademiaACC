@@ -20,7 +20,7 @@
             const [data, setData] = React.useState(null);
             const [error, setError] = React.useState(null);
 
-            const getNotas = async () => {
+            const getStudents = async () => {
                 try {
                     const response = await axios.get('http://localhost:8080/student');
                     setData(response.data);
@@ -34,7 +34,7 @@
             return (
                 <div>
                     <h1>ReactJS Front-End</h1>
-                    <button onClick={getNotas}>Pegar dados</button>
+                    <button onClick={getStudents}>Pegar dados</button>
                     <br />
                     <br />
                     <div>Response Data: {data ? JSON.stringify(data) : 'Nenhum dado disponível'}</div>
